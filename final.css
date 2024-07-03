@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:hsl(225, 100%, 94%) ;
+    background-image:url(order-summary-component-main/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:left 0vh bottom 47vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    font-family: "Red Hat Display", sans-serif;
+    /* padding:20px; */
+}
+.wrapper{
+    max-width:450px;
+    margin-bottom:15px;
+}
+.subcontainer{
+    text-align:center;
+    padding:40px 60px;
+    padding-bottom:0px;
+    height:80%;
+    
+}
+.wrapper{
+    background-color:white;
+    border-radius:10px;
+    overflow:hidden;
+}
+.subcontainer h3{
+    padding-bottom:20px;
+    font-size:25px;
+    font-weight: 700;
+}
+.subcontainer p{
+    padding-bottom:20px;
+    line-height:1.6;
+    font-weight:500;
+    color:hsl(224, 23%, 55%);
+}
+.subsubcontainer{
+    background-color: hsl(225, 100%, 94%);
+    display:flex;
+    border-radius:10px;
+    padding:20px;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom:30px;
+}
+.subsubsubcontainer{
+    display:flex;
+}
+.subsubsubsubcontainer{
+    padding-left:20px;
+}
+.subsubsubsubcontainer p{
+    padding-bottom:0;
+}
+.subsubcontainer2{
+    display:flex;
+    flex-direction: column;
+}
+.a1, .a2{
+    text-decoration: none;
+    padding:20px;
+    width:100%;
+    font-weight:500;
+}
+.a1{
+    color:white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius:12px;
+    margin-bottom:5px;
+    box-shadow: 0px 4px 35px -4px rgba(0,0,0,0.66);
+    
+}
+@media(max-width:570px){
+    body{
+        background-image: url(order-summary-component-main/order-summary-component-main/images/pattern-background-mobile.svg);
+    }
+    .wrapper{
+        width:350px;
+    }
+    .subcontainer{
+        padding:20px;
+    }
+    .wrapper img{
+        width:100%;
+    }
+}
